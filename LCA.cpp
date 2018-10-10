@@ -92,7 +92,7 @@ struct LCA{
 			se.update(i,depth[i]);
 		}
 	}
-	//[u,v]
+
 	int lca(ll u,ll v){
 		return vs[se.query(min(id[u],id[v]),max(id[u],id[v])+1).second];
 	}
