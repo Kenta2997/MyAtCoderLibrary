@@ -26,10 +26,10 @@ public:
 			return par[x] = root(par[x]);
 		}
 	}
-	ll length(ll x,ll y){ // xから左にlengthいったところにy
+	ll length(ll x,ll y){ // xから右にlengthいったところにy
 		return len1(y) - len1(x);
 	}
-	void unite(ll x,ll y,ll dd){ // xから左にdだけ離れたところにy
+	void unite(ll x,ll y,ll dd){ // xから右にdだけ離れたところにy
 		dd += len1(x);x=root(x);
 		dd -= len1(y);y=root(y);
 		if(x==y)return;
