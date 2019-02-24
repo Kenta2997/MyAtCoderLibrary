@@ -4,8 +4,8 @@ typedef long long ll;
 #define P pair<ll,ll>
 #define FOR(I,A,B) for(ll I = (A); I < (B); ++I)
 #define FORR(I,A,B) for(ll I = ((B)-1); I >= (A); --I)
-#define POSL(x,v) (lower_bound(x.begin(),x.end(),v)-x.begin()) //ai>=v  x is sorted
-#define POSU(x,v) (upper_bound(x.begin(),x.end(),v)-x.begin()) //ai>v  x is sorted
+#define POSL(x,v) (lower_bound(x.begin(),x.end(),v)-x.begin()) //xi>=v  x is sorted
+#define POSU(x,v) (upper_bound(x.begin(),x.end(),v)-x.begin()) //xi>v  x is sorted
 #define NUM(x,v) (POSU(x,v)-POSL(x,v))  //x is sorted
 #define SORT(x) (sort(x.begin(),x.end())) // 0 2 2 3 4 5 8 9
 #define REV(x) (reverse(x.begin(),x.end())) //reverse
