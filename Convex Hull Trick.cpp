@@ -1,5 +1,6 @@
 // http://kazuma8128.hatenablog.com/entry/2018/02/28/102130
 // https://atcoder.jp/contests/dp/submissions/4362019
+// https://atcoder.jp/contests/colopl2018-final/submissions/4364480
 template <typename T, const T id>
 class CHT {
 	struct line {
