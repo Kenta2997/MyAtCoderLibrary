@@ -1,6 +1,6 @@
-//関数版   	https://atcoder.jp/contests/abc149/submissions/9245902
+//関数版		https://atcoder.jp/contests/abc149/submissions/9245902
 //クラス版		https://atcoder.jp/contests/abc149/submissions/9243909
-
+//ショート版		https://atcoder.jp/contests/abc149/submissions/9255260
 
 void get_forest_size(const vector<int> &u,const vector<int> &v,vector<vector<int>> &forest){
 	// 木で、ある頂点を除いた時にできる森の各木のサイズを出力 0-index
